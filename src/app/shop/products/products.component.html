@@ -22,7 +22,8 @@
       </td>
       <td style="width: 250px">
         <a routerLink="editor/{{product.id}}"><input type="button" class="uk-button uk-button-primary" value="Edytuj"></a>
-        <a (click)="removeProduct(product.id)"><input type="button" class="uk-button uk-button-danger" value="Usuń"></a>
+<!--        <a (click)="removeProduct(product.id)"><input type="button" class="uk-button uk-button-danger" value="Usuń"></a>-->
+        <input (click)="removeProduct(product.id)" type="button" class="uk-button uk-button-danger" value="Usuń">
       </td>
     </tr>
     </tbody>
